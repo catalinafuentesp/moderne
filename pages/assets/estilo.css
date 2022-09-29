@@ -270,7 +270,7 @@ strong {
     flex-direction: column;
     padding: 0, 0, 0, 0;
     margin: auto;
-    justify-content: center;
+    justify-content: left;
     width: 330px;
   }
   header .navbar-nav {
@@ -359,7 +359,7 @@ strong {
     padding-top: 1%;
     padding: 0, 0, 0, 0;
     margin: auto;
-    justify-content: center;
+    justify-content: left;
     width: 330px;
   }
   .footer .fa {
