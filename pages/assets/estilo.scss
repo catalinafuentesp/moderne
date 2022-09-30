@@ -155,8 +155,10 @@ strong {
     flex-direction: column;
     padding: 0, 0, 0, 0;
     margin: auto;
-    justify-content:left; 
+    justify-content: center;
     width: 330px;
+    overflow-wrap: normal;
+    overflow-y: hidden;
         
         .navbar-nav {
             border-style: none;
@@ -178,8 +180,6 @@ strong {
     }
 
     body, html {
-        height: 100%;
-        width: 100vh;
         display: flex;
         flex-direction: column; 
         width: 100%;
@@ -256,9 +256,10 @@ main {
     padding-top: 1%;
     padding: 0, 0, 0, 0;
     margin: auto;
-    justify-content:left; 
+    justify-content: center;
     width: 330px;
-
+    overflow-wrap: normal;
+    overflow-y: hidden;
    .fa {
     background: none ;
    }

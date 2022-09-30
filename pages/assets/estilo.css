@@ -270,8 +270,10 @@ strong {
     flex-direction: column;
     padding: 0, 0, 0, 0;
     margin: auto;
-    justify-content: left;
+    justify-content: center;
     width: 330px;
+    overflow-wrap: normal;
+    overflow-y: hidden;
   }
   header .navbar-nav {
     border-style: none;
@@ -289,8 +291,6 @@ strong {
     align-content: center;
   }
   body, html {
-    height: 100%;
-    width: 100vh;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -359,8 +359,10 @@ strong {
     padding-top: 1%;
     padding: 0, 0, 0, 0;
     margin: auto;
-    justify-content: left;
+    justify-content: center;
     width: 330px;
+    overflow-wrap: normal;
+    overflow-y: hidden;
   }
   .footer .fa {
     background: none;
