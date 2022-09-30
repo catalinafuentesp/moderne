@@ -156,9 +156,8 @@ strong {
     padding: 0, 0, 0, 0;
     margin: auto;
     justify-content: center;
-    width: 330px;
-    overflow-wrap: normal;
-    overflow-y: hidden;
+    width:auto;
+    overflow-x: hidden;
         
         .navbar-nav {
             border-style: none;
@@ -257,9 +256,8 @@ main {
     padding: 0, 0, 0, 0;
     margin: auto;
     justify-content: center;
-    width: 330px;
-    overflow-wrap: normal;
-    overflow-y: hidden;
+    width:auto;
+    overflow-x: hidden;
    .fa {
     background: none ;
    }
