@@ -264,3 +264,41 @@ main {
    }
 }
 }
+
+ @media only screen and (max-width:1200px) {
+    .novedades {
+        visibility: hidden;
+    }
+    
+    .buscador {
+        visibility: hidden;
+    }
+
+
+    .navbar-nav {
+        border-style: none;
+        background-color: none;
+        width: 7em;
+        height: fit-content; 
+        align-content: center;
+
+}
+.nav-item {
+    justify-content: left;
+    text-align: start;
+    align-self: flex-start;
+    align-content: center;
+
+}
+    
+    .cccaja-1, .cccaja-2, .cccaja-3, .cccaja-4, .cccaja-5 {
+        background-color: transparent;
+        border-style: none;
+        font-size: 0.8em;
+        text-align: start;
+        display: inline-block;
+        align-content: center;
+       
+    }
+
+}
